@@ -45,9 +45,9 @@ def scrape():
 # In[9]:
 
 
-mars = mongo.db.mars
-mars.update_one({}, {"$set":mars_data}, upsert=True)
-return redirect('/', code=302)
+# mars = mongo.db.mars
+# mars.update_one({}, {"$set":mars_data}, upsert=True)
+# return redirect('/', code=302)
 
 
 # In[ ]:
